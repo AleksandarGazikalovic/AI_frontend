@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="background-container">
+        <video class="background" src="./assets/background.mp4" playsinline loop autoplay muted autobuffer>
+            <source src="./assets/background.mp4" type="video/mp4" />
+            <source src="./assets/background.webm" type="video/webm" />
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+    <div class="navbar">
+        <a class="navbar-logo" href="index.html">
+            <img src="./assets/logo1.png" alt="logo">
+        </a>
+        <div class="navbar-menu-btn">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <div class="navbar-menu">
+            <a href="about.html">
+                About us
+            </a>
+            <a href="courses.html">
+                Courses
+            </a>
+            <a href="form.html">
+                Contact us
+            </a>
+        </div>
+        <div class="navbar-links">
+            <a href="about.html">
+                About us
+            </a>
+            <a href="courses.html">
+                Courses
+            </a>
+            <a href="form.html">
+                Contact us
+            </a>
+        </div>
+    </div>
+
+    <div class="switch">
+        <input type="checkbox" id="checkboxInput">
+        <label for="checkboxInput" class="toggleSwitch">
+        </label>
+    </div>
+
+    <div class="login-box">
+
+        <form id="loginForm">
+            <div class="user-login-box">
+                <input id="email-login" type="email" name="" required="">
+                <label>Email</label>
+            </div>
+            <div class="user-login-box">
+                <input id="password-login" type="password" name="" required="">
+                <label>Password</label>
+            </div>
+            <a id="login-btn" href="#">
+                Login
+                <span></span>
+            </a>
+        </form>
+    </div>
+    <div class="register-box">
+
+        <form id="registerForm">
+            <div class="user-register-box">
+                <input id="username" type="text" name="" required="">
+                <label>Username</label>
+            </div>
+            <div class="user-register-box">
+                <input id="email" type="email" name="" required="">
+                <label>Email</label>
+            </div>
+            <div class="user-register-box">
+                <input id="password" type="password" name="" required="">
+                <label>Password</label>
+            </div>
+            <div class="user-register-box">
+                <input id="repeat-password" type="password" name="" required="">
+                <label>Repeat password</label>
+            </div>
+            <a id="register-btn" href="#">
+                Register
+                <span></span>
+            </a>
+        </form>
+    </div>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>
